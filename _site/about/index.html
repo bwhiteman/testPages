@@ -1,0 +1,103 @@
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="/newman/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/newman/stylesheets/styles.css">
+    <link rel="stylesheet" href="/newman/stylesheets/pygment_trac.css">
+    <script src="/newman/javascripts/scale.fix.js"></script>
+    <title>Newman</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/newman/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/newman/">Newman</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/newman/about/">About</a></li>
+        <li><a href="/newman/features/">Features</a></li>
+        <li><a href="/newman/how-to/">How To</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Source <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://github.com/Sotera/newman/zipball/master">Download <strong>ZIP File</strong></a></li>
+            <li><a href="https://github.com/Sotera/newman/tarball/master">Download <strong>TAR Ball</strong></a></li>
+            <li><a href="https://github.com/Sotera/newman">View On <strong>GitHub</strong></a></li>
+            <li><a href="https://github.com/Sotera/newman/fork">Fork on <strong>Github</strong></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid">
+    <h1 id="newman">Newman</h1>
+<p>A tool to quickly explore the history and network created by your email.
+<img src="http://s2.quickmeme.com/img/2c/2cc68b7c1ba0a12bb8bc3438ecfea4d118bdefa65989dfa74825af5f85919739.jpg" alt="Hello Newman" />
+## Quick Start
+Install <a href="http://www.vagrantup.com/">Vagrant</a><br />
+Install [Virtual Box] (https://www.virtualbox.org/wiki/Downloads)<br />
+Download [XData-VM v0.2.1] (http://goo.gl/5jCBem) to your home directory
+    $ vagrant box add xdata-0.2.1 xdata-0.2.1.box  </p>
+
+<p>Download Newman-VM  </p>
+
+<p><code>shell
+$ git clone https://github.com/Sotera/newman-vm
+$ cd newman-vm
+$ vagrant up
+$ vagrant ssh
+$ cd /srv/software
+$ git clone https://github.com/Sotera/newman
+$ tangelo restart
+</code></p>
+
+<p>In a browser goto <a href="http://localhost:8787/ingest.html">http://localhost:8787/ingest.html</a><br />
+Enter your gmail username and password and click download<br />
+Once download has completed, click ingest<br />
+Once ingest has completed, goto <a href="http://localhost:8787/">http://localhost:8787/</a>  </p>
+
+<h1 id="gmail-download-troubleshooting">GMail Download troubleshooting:</h1>
+<p>Make sure that Google 2-Step authentication is turned off<br />
+    GMail-&gt; Account-&gt; Security-&gt; 2-Step Verification<br />
+Make sure Access for less secure applications is turned on.<br />
+    GMail-&gt; Account-&gt; Security-&gt; Access for less secure apps.  </p>
+
+<h2 id="applied-technology">Applied Technology</h2>
+<p><a href="https://github.com/Sotera/distributed-louvain-modularity">Distributed Louvain Modularity</a><br />
+<a href="https://github.com/mitll/MITIE">MITIE: MIT Information Extraction</a><br />
+<a href="https://github.com/mitll/topic-clustering">Topic Clustering</a><br />
+<a href="https://github.com/AutonlabCMU/ActiveSearch">ActiveSearch</a><br />
+<a href="http://tangelo.kitware.com">Tangelo</a></p>
+
+<p><a href="https://www.iconfinder.com/iconsets/document-icons-2">icons</a>  </p>
+
+</div>
+</body>
+<footer>
+    <p>This project is maintained by <a href="https://github.com/Sotera">Sotera</a></p>
+</footer>
+</html>
