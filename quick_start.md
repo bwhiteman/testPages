@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Quick Start
 permalink: /how-to/
 ---
 
