@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 title: Newman-- "When you control the mail... You control information"
 ---
 # Newman
