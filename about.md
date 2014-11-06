@@ -1,3 +1,6 @@
+---
+layout: base
+---
 # Newman
 A tool to quickly explore the history and network created by your email.
 ![Hello Newman](http://s2.quickmeme.com/img/2c/2cc68b7c1ba0a12bb8bc3438ecfea4d118bdefa65989dfa74825af5f85919739.jpg)
