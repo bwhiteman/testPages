@@ -1,5 +1,7 @@
 ---
-layout: base
+layout: page
+title: About
+permalink: /about/
 ---
 # Newman
 A tool to quickly explore the history and network created by your email.
